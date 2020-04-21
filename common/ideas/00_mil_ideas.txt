@@ -648,7 +648,8 @@ quality_ideas =
 
 	private_to_marshal = 
 	{
-		cavalry_shock = 0.10		
+		cavalry_fire = 0.05
+		cavalry_shock = 0.05
 	}
 	
 	quality_education = 
@@ -658,7 +659,7 @@ quality_ideas =
 	
 	finest_of_horses = 
 	{
-		infantry_shock = 0.15
+		infantry_shock = 0.05
 	}
 	
 	escort_ships = 
@@ -673,12 +674,13 @@ quality_ideas =
 	
 	copper_bottoms = 
 	{
-		infantry_fire = 0.10
+		infantry_fire = 0.05
 	}
 	
 	massed_battery = 
 	{
-		artillery_fire = 0.2
+		artillery_fire = 0.05
+		artillery_shock = 0.05
 	}
 
 	ai_will_do = 
@@ -768,10 +770,10 @@ quantity_ideas =
 	
 	mass_army = 
 	{
-		naval_forcelimit = 15
-		land_forcelimit = 7
-		# <<WIKI>> add_age_forcelimit_naval = 15
-		# <<WIKI>> add_age_forcelimit_land = 10		
+		naval_forcelimit = 20
+		land_forcelimit = 20
+		# <<WIKI>> add_age_forcelimit_naval = 20
+		# <<WIKI>> add_age_forcelimit_land = 20
 	}
 	
 	the_young_can_serve = 

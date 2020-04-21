@@ -1112,7 +1112,7 @@ galle_force_fleet_3 = {
 	naval_forcelimit = 300
 }
 
-kriegsprod_forcelimit_1 = {
+quantity_forcelimit_1 = {
 	potential = {
 		has_idea_group = quantity_ideas
 		current_age = age_of_reformation
@@ -1121,24 +1121,24 @@ kriegsprod_forcelimit_1 = {
 		has_idea = mass_army
 		current_age = age_of_reformation
 	}
-	naval_forcelimit = 15
-	land_forcelimit = 10
-}
-
-kriegsprod_forcelimit_2 = {
-	potential = {
-		has_idea_group = quantity_ideas
-		current_age = age_of_absolutism
-	}
-	trigger = {
-		has_idea = mass_army
-		current_age = age_of_absolutism
-	}
-	naval_forcelimit = 30
+	naval_forcelimit = 20
 	land_forcelimit = 20
 }
 
-kriegsprod_forcelimit_3 = {
+quantity_forcelimit_2 = {
+	potential = {
+		has_idea_group = quantity_ideas
+		current_age = age_of_absolutism
+	}
+	trigger = {
+		has_idea = mass_army
+		current_age = age_of_absolutism
+	}
+	naval_forcelimit = 20
+	land_forcelimit = 20
+}
+
+quantity_forcelimit_3 = {
 	potential = {
 		has_idea_group = quantity_ideas
 		current_age = age_of_revolutions
@@ -1147,8 +1147,8 @@ kriegsprod_forcelimit_3 = {
 		has_idea = mass_army
 		current_age = age_of_revolutions
 	}
-	naval_forcelimit = 45
-	land_forcelimit = 30
+	naval_forcelimit = 20
+	land_forcelimit = 20
 }
 
 full_merc_1 = {
@@ -1276,7 +1276,8 @@ quality_ideas_cavshock_1 =
 		current_age = age_of_reformation
 	}
 	
-	cavalry_shock = 0.40	
+	cavalry_shock = 0.05
+	cavalry_fire = 0.05
 }
 
 quality_ideas_cavshock_2 =
@@ -1293,7 +1294,8 @@ quality_ideas_cavshock_2 =
 		current_age = age_of_absolutism
 	}
 	
-	cavalry_shock = 0.50	
+	cavalry_shock = 0.05
+	cavalry_fire = 0.05
 }
 
 quality_ideas_cavshock_3 =
@@ -1310,7 +1312,8 @@ quality_ideas_cavshock_3 =
 		current_age = age_of_revolutions
 	}
 	
-	cavalry_shock = 0.50	
+	cavalry_shock = 0.05
+	cavalry_fire = 0.05
 }
 
 quality_ideas_infshock_1 =
@@ -1327,7 +1330,7 @@ quality_ideas_infshock_1 =
 		current_age = age_of_reformation
 	}
 	
-	infantry_shock = 0.15
+	infantry_shock = 0.05
 }
 
 quality_ideas_infshock_2 =
@@ -1344,7 +1347,7 @@ quality_ideas_infshock_2 =
 		current_age = age_of_absolutism
 	}
 	
-	infantry_shock = 0.25	
+	infantry_shock = 0.05	
 }
 
 quality_ideas_infshock_3 =
@@ -1361,7 +1364,7 @@ quality_ideas_infshock_3 =
 		current_age = age_of_revolutions
 	}
 	
-	infantry_shock = 0.25	
+	infantry_shock = 0.05	
 }
 
 quality_ideas_inffire_1 =
@@ -1378,7 +1381,7 @@ quality_ideas_inffire_1 =
 		current_age = age_of_reformation
 	}
 	
-	infantry_fire = 0.15
+	infantry_fire = 0.05
 }
 
 quality_ideas_inffire_2 =
@@ -1395,7 +1398,7 @@ quality_ideas_inffire_2 =
 		current_age = age_of_absolutism
 	}
 	
-	infantry_fire = 0.25	
+	infantry_fire = 0.05	
 }
 
 quality_ideas_inffire_3 =
@@ -1412,7 +1415,7 @@ quality_ideas_inffire_3 =
 		current_age = age_of_revolutions
 	}
 	
-	infantry_fire = 0.5
+	infantry_fire = 0.05
 }
 
 quality_ideas_canfire_1 =
@@ -1429,7 +1432,8 @@ quality_ideas_canfire_1 =
 		current_age = age_of_reformation
 	}
 	
-	artillery_fire = 0.5
+	artillery_fire = 0.05
+	artillery_shock = 0.05
 }
 
 quality_ideas_canfire_2 =
@@ -1446,7 +1450,8 @@ quality_ideas_canfire_2 =
 		current_age = age_of_absolutism
 	}
 	
-	artillery_fire = 1	
+	artillery_fire = 0.05
+	artillery_shock = 0.05
 }
 
 quality_ideas_canfire_3 =
@@ -1463,5 +1468,6 @@ quality_ideas_canfire_3 =
 		current_age = age_of_revolutions
 	}
 	
-	artillery_fire = 1
+	artillery_fire = 0.05
+	artillery_shock = 0.05
 }
