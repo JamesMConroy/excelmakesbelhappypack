@@ -1261,3 +1261,207 @@ shock_firedamage_3 = {
 	}
 	fire_damage_received = -0.15
 }
+
+quality_ideas_cavshock_1 =
+{
+	potential = 
+	{
+		has_idea_group = quality_ideas
+		current_age = age_of_reformation
+	}
+	
+	trigger = 
+	{
+		has_idea = private_to_marshal
+		current_age = age_of_reformation
+	}
+	
+	cavalry_shock = 0.40	
+}
+
+quality_ideas_cavshock_2 =
+{
+	potential = 
+	{
+		has_idea_group = quality_ideas
+		current_age = age_of_absolutism
+	}
+	
+	trigger = 
+	{
+		has_idea = private_to_marshal
+		current_age = age_of_absolutism
+	}
+	
+	cavalry_shock = 0.50	
+}
+
+quality_ideas_cavshock_3 =
+{
+	potential = 
+	{
+		has_idea_group = quality_ideas
+		current_age = age_of_revolutions
+	}
+	
+	trigger = 
+	{
+		has_idea = private_to_marshal
+		current_age = age_of_revolutions
+	}
+	
+	cavalry_shock = 0.50	
+}
+
+quality_ideas_infshock_1 =
+{
+	potential = 
+	{
+		has_idea_group = quality_ideas
+		current_age = age_of_reformation
+	}
+	
+	trigger = 
+	{
+		has_idea = finest_of_horses
+		current_age = age_of_reformation
+	}
+	
+	infantry_shock = 0.15
+}
+
+quality_ideas_infshock_2 =
+{
+	potential = 
+	{
+		has_idea_group = quality_ideas
+		current_age = age_of_absolutism
+	}
+	
+	trigger = 
+	{
+		has_idea = finest_of_horses
+		current_age = age_of_absolutism
+	}
+	
+	infantry_shock = 0.25	
+}
+
+quality_ideas_infshock_3 =
+{
+	potential = 
+	{
+		has_idea_group = quality_ideas
+		current_age = age_of_revolutions
+	}
+	
+	trigger = 
+	{
+		has_idea = finest_of_horses
+		current_age = age_of_revolutions
+	}
+	
+	infantry_shock = 0.25	
+}
+
+quality_ideas_inffire_1 =
+{
+	potential = 
+	{
+		has_idea_group = quality_ideas
+		current_age = age_of_reformation
+	}
+	
+	trigger = 
+	{
+		has_idea = copper_bottoms
+		current_age = age_of_reformation
+	}
+	
+	infantry_fire = 0.15
+}
+
+quality_ideas_inffire_2 =
+{
+	potential = 
+	{
+		has_idea_group = quality_ideas
+		current_age = age_of_absolutism
+	}
+	
+	trigger = 
+	{
+		has_idea = copper_bottoms
+		current_age = age_of_absolutism
+	}
+	
+	infantry_fire = 0.25	
+}
+
+quality_ideas_inffire_3 =
+{
+	potential = 
+	{
+		has_idea_group = quality_ideas
+		current_age = age_of_revolutions
+	}
+	
+	trigger = 
+	{
+		has_idea = copper_bottoms
+		current_age = age_of_revolutions
+	}
+	
+	infantry_fire = 0.5
+}
+
+quality_ideas_canfire_1 =
+{
+	potential = 
+	{
+		has_idea_group = quality_ideas
+		current_age = age_of_reformation
+	}
+	
+	trigger = 
+	{
+		has_idea = massed_battery
+		current_age = age_of_reformation
+	}
+	
+	artillery_fire = 0.5
+}
+
+quality_ideas_canfire_2 =
+{
+	potential = 
+	{
+		has_idea_group = quality_ideas
+		current_age = age_of_absolutism
+	}
+	
+	trigger = 
+	{
+		has_idea = massed_battery
+		current_age = age_of_absolutism
+	}
+	
+	artillery_fire = 1	
+}
+
+quality_ideas_canfire_3 =
+{
+	potential = 
+	{
+		has_idea_group = quality_ideas
+		current_age = age_of_revolutions
+	}
+	
+	trigger = 
+	{
+		has_idea = massed_battery
+		current_age = age_of_revolutions
+	}
+	
+	artillery_fire = 1
+}

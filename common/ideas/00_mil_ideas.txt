@@ -417,14 +417,14 @@ militarismus0 =
 	militarismus4 = 
 	{
 		global_manpower = 5.0
-		war_exhaustion = -0.03
+		war_exhaustion = -0.05
 		# <<WIKI>> add_age_manpower = 5.0
 	}
 	
 	militarismus5 = 
 	{		
 		## <<WIKI>> elective_monarchy_mil_buff = yes
-		general_cost = -0.25		
+		general_cost = -0.5		
 		# global_garrison_growth = 0.25
 		# garrison_size = 0.25
 	}
@@ -643,12 +643,12 @@ quality_ideas =
 			
 	bonus = 
 	{
-		discipline = 0.05
+		discipline = 0.035
 	}
 
 	private_to_marshal = 
 	{
-		cavalry_shock = 0.15		
+		cavalry_shock = 0.10		
 	}
 	
 	quality_education = 
@@ -673,12 +673,12 @@ quality_ideas =
 	
 	copper_bottoms = 
 	{
-		infantry_fire = 0.15
+		infantry_fire = 0.10
 	}
 	
 	massed_battery = 
 	{
-		artillery_fire = 0.15
+		artillery_fire = 0.2
 	}
 
 	ai_will_do = 
@@ -1012,8 +1012,7 @@ waffenqualitat0 =
 	
 	waffenqualitat1 = 
 	{
-		#Army Tier 2 - 3 Buildings
-		
+		#Army Tier 2 - 3 Buildings		
 		global_trade_goods_size_modifier = 0.075
 	}
 	
@@ -1156,7 +1155,7 @@ kriegsproduktion0 =
 	kriegsproduktion4 = 
 	{
 		#Force Limit Tier 2 - 3 Buildings		
-		war_exhaustion = -0.5		
+		war_exhaustion = -0.1		
 	}
 
 	kriegsproduktion5 = 
