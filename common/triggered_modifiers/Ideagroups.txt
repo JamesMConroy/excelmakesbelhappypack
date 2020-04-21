@@ -32,6 +32,18 @@ dynastic_bonus_2 = {
 	prestige = 1
 }
  
+ dynastic_bonus_3 = {
+	potential = {
+		has_idea_group = militarismus0
+	}
+	trigger = {
+		has_idea = militarismus5
+		has_reform = elective_monarchy
+	}
+	monarch_military_power = 1
+	
+}
+ 
 
 gross_1_bonus = {
 	potential = {
@@ -1102,11 +1114,11 @@ galle_force_fleet_3 = {
 
 kriegsprod_forcelimit_1 = {
 	potential = {
-		has_idea_group = kriegsproduktion0
+		has_idea_group = quantity_ideas
 		current_age = age_of_reformation
 	}
 	trigger = {
-		has_idea = kriegsproduktion4
+		has_idea = mass_army
 		current_age = age_of_reformation
 	}
 	naval_forcelimit = 15
@@ -1115,11 +1127,11 @@ kriegsprod_forcelimit_1 = {
 
 kriegsprod_forcelimit_2 = {
 	potential = {
-		has_idea_group = kriegsproduktion0
+		has_idea_group = quantity_ideas
 		current_age = age_of_absolutism
 	}
 	trigger = {
-		has_idea = kriegsproduktion4
+		has_idea = mass_army
 		current_age = age_of_absolutism
 	}
 	naval_forcelimit = 30
@@ -1128,11 +1140,11 @@ kriegsprod_forcelimit_2 = {
 
 kriegsprod_forcelimit_3 = {
 	potential = {
-		has_idea_group = kriegsproduktion0
+		has_idea_group = quantity_ideas
 		current_age = age_of_revolutions
 	}
 	trigger = {
-		has_idea = kriegsproduktion4
+		has_idea = mass_army
 		current_age = age_of_revolutions
 	}
 	naval_forcelimit = 45

@@ -1000,8 +1000,14 @@ barracks = {
 	cost = 250
 	time = 12
 	
+	trigger = 
+	{
+		has_idea = waffenqualitat1		
+	}	
+	
 	modifier = {
 		local_manpower_modifier = 1.0
+		local_manpower = 0.25		
 	}
 	
 	ai_will_do = {
@@ -1095,8 +1101,14 @@ training_fields = {
 	cost = 400
 	time = 12
 	
+	trigger = 
+	{
+		has_idea = waffenqualitat1		
+	}
+	
 	modifier = {
 		local_manpower_modifier = 1.5
+		local_manpower = 0.5
 	}
 	
 	ai_will_do = {
@@ -1229,6 +1241,10 @@ regimental_camp = {
 	time = 12
 	
 	trigger = {
+	trigger = 
+	
+		has_idea = kriegsproduktion4		
+	
 		OR = {
 			has_building = regimental_camp
 			is_state = yes
@@ -1238,6 +1254,7 @@ regimental_camp = {
 	modifier = {
 		land_forcelimit = 0.3
 		regiment_recruit_speed = -0.2
+		local_production_efficiency = 0.05
 	}
 	ai_will_do = {
 		factor = 100
@@ -1267,6 +1284,9 @@ conscription_center = {
 	cost = 500
 	time = 12
 	trigger = {
+	
+		has_idea = kriegsproduktion4
+		
 		OR = {
 			has_building = conscription_center
 			is_state = yes
@@ -1276,6 +1296,7 @@ conscription_center = {
 	modifier = {
 		land_forcelimit = 0.3
 		regiment_recruit_speed = -0.3
+		local_production_efficiency = 0.1
 	}	
 	ai_will_do = {
 		factor = 100
