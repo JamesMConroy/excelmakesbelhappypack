@@ -20,7 +20,7 @@
 ## Update v0.23
 - removes the scaling difficulty for IV hard mode
 ## Update v0.22 'Sevy#0769'
-- Fixed estates view for bigger UI
+- Fixed estates view for bigger UI 
 - Fixed buildings macrobuilder view for bigger UI
 ## Update v0.21
 - UI fixes

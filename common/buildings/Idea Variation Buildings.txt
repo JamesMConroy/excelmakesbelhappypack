@@ -197,7 +197,7 @@ terrain_land = {
 	}
 	ai_will_do = {
 		factor = 100
-	}	
+	}
 }
 
 terrain_woodland = {
@@ -868,7 +868,7 @@ stock_exchange = {
 	modifier = {
 		province_trade_power_value = 8.0
 		trade_value_modifier = 0.4	
-	}	
+	}
 	
 	ai_will_do = {
 		factor = 120
@@ -1002,6 +1002,7 @@ barracks = {
 	
 	trigger = 
 	{
+		#Must have Weapon Quality
 		has_idea = waffenqualitat1		
 	}	
 	
@@ -1103,6 +1104,7 @@ training_fields = {
 	
 	trigger = 
 	{
+		#Must have Weapon Quality
 		has_idea = waffenqualitat1		
 	}
 	
@@ -1204,15 +1206,15 @@ forcelimit_lvl_1 = {
 	time = 12
 	
 	trigger = {
-		OR = {
 			has_building = forcelimit_lvl_1
 			is_state = yes
 		}
-	}
-	modifier = {
+	modifier = 
+	{
 		land_forcelimit = 0.3	
 		regiment_recruit_speed = -0.1
 	}
+	
 	ai_will_do = {
 		factor = 100
 		modifier = {
@@ -1240,17 +1242,12 @@ regimental_camp = {
 	cost = 300
 	time = 12
 	
-	trigger = {
 	trigger = 
-	
-		has_idea = kriegsproduktion4		
-	
-		OR = {
-			has_building = regimental_camp
-			is_state = yes
-		}
-		development = 20
+	{	
+		#Must have War Production
+		has_idea = kriegsproduktion4	
 	}
+	
 	modifier = {
 		land_forcelimit = 0.3
 		regiment_recruit_speed = -0.2
@@ -1284,10 +1281,10 @@ conscription_center = {
 	cost = 500
 	time = 12
 	trigger = {
-	
+		#Must have War Production
 		has_idea = kriegsproduktion4
 		
-		OR = {
+		AND = {
 			has_building = conscription_center
 			is_state = yes
 		}

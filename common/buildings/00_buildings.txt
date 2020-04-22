@@ -34,29 +34,6 @@ fort_15th = {
 		fort_level = 2
 	}
 
-#	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
-#	on_built = {
-#		FROM = {
-#			add_army_professionalism = 0.005
-#		}
-#	}
-#
-#	# THIS = Province, FROM = Destroyer, Will not be called on buildings made obsolete!
-#	on_destroyed = {
-#		FROM = {
-#			add_army_professionalism = -0.01
-#		}
-#	}
-#
-#	# THIS = Province, FROM = Destroyer, Will not be called on buildings destroyed!
-#	on_obsolete = {
-#		hidden_effect = {
-#			FROM = {
-#				add_army_professionalism = -0.005
-#			}
-#		}
-#	}
-	
 	onmap = yes
 	influencing_fort = yes
 	
@@ -78,7 +55,7 @@ fort_15th = {
 		modifier = {
 			factor = 0.5
 			is_overseas = yes
-		}
+		}		
 		
 		# this logic tries to make the ai build zones of control rather than adjacent multiple forts
 		modifier = {
@@ -170,11 +147,11 @@ fort_16th = {
 			factor = 0
 			island = yes
 			NOT = { is_capital = yes }
-		}			
+		}	
 		modifier = {
 			factor = 0.5
 			is_overseas = yes
-		}	
+		}		
 		
 		# this logic tries to make the ai build zones of control rather than adjacent multiple forts
 		modifier = {
@@ -266,11 +243,11 @@ fort_17th = {
 			factor = 0
 			island = yes
 			NOT = { is_capital = yes }
-		}			
+		}	
 		modifier = {
 			factor = 0.5
 			is_overseas = yes
-		}	
+		}		
 		
 		# this logic tries to make the ai build zones of control rather than adjacent multiple forts
 		modifier = {
@@ -362,11 +339,11 @@ fort_18th = {
 			factor = 0
 			island = yes
 			NOT = { is_capital = yes }
-		}			
+		}	
 		modifier = {
 			factor = 0.5
 			is_overseas = yes
-		}	
+		}		
 		
 		# this logic tries to make the ai build zones of control rather than adjacent multiple forts
 		modifier = {
@@ -527,7 +504,7 @@ tradecompany = {
 		incense
 	}
 	onmap = yes
-
+	
 	ai_will_do = {
 		factor = 1
 	}

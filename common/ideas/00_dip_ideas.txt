@@ -879,7 +879,7 @@ flottenbasis0 =
 	}
 	
 	ai_will_do = 
-	{	
+	{
 		factor = 10
 		modifier = 
 		{
@@ -1911,7 +1911,7 @@ gross0 =
 	}
 	
 	ai_will_do = 
-	{				
+	{
 		factor = 10
 		modifier = 
 		{
@@ -2048,7 +2048,7 @@ galle0 =
 	
 	ai_will_do = 
 	{
-			
+	
 		factor = 10
 		modifier = 
 		{
@@ -2165,7 +2165,7 @@ handel0 =
 	}
 	
 	ai_will_do = 
-	{		
+	{
 		
 		factor = 10
 		modifier = 
