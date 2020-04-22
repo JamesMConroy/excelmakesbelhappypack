@@ -29,7 +29,7 @@ potential =
 		current_age = age_of_absolutism
 	}
 	
-	yearly_army_professionalism = +0.0025
+	yearly_army_professionalism = +0.005
 }
 
 professionalism_negative_3
@@ -44,5 +44,5 @@ potential =
 		current_age = age_of_revolutions
 	}
 	
-	yearly_army_professionalism = +0.0025
+	yearly_army_professionalism = +0.0075
 }		
